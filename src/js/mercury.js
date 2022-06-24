@@ -8,5 +8,6 @@ export default class Mercury {
     return earthtime/.24;
   }
   mercuryLife(lifexpect){
+    return lifexpect;
   }
 }
