@@ -1,0 +1,19 @@
+body{
+  background-color: rgb(98, 167, 228);
+  text-align: center;
+}
+
+form{
+  width: 1000px;
+  border: 15px solid #e68ce9;
+  padding: 50px;
+  margin: 10px;
+  margin-left: 23%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
+h3{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
