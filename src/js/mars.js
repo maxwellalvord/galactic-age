@@ -6,6 +6,9 @@ export default class Mars {
     return earthtime/1.88;
   }
   marsLife(lifexpect){
- 
+    return lifexpect;
+  }
+  marsRemain(earthtime, lifexpect){
+   
   }
 }
