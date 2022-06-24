@@ -9,4 +9,8 @@ describe("Mercury", () => {
     const spaceTime = new Mercury(1);
     expect(spaceTime.mercuryTime(1)).toEqual(1/.24);
   });
+  test("Should output the users life expectancy", () => {
+    const spaceTime = new Mercury(1, 45);
+    expect(spaceTime.mercuryLife(45)).toEqual(45);
+  });
 });
