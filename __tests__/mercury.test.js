@@ -17,4 +17,8 @@ describe("Mercury", () => {
     const spaceTime = new Mercury(1, 45);
     expect(spaceTime.mercuryRemain(1, 45)).toEqual(45 - (1/.24));
   });
+  test("should output a positive number to indicate if user has lived longer than expected", () => {
+    const spaceTime = new Mercury(1000, 45);
+    expect(spaceTime.mercuryRemain(1000, 45)).toEqual((1000/.24) - 45);
+  });
 });
