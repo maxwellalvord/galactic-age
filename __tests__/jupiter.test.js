@@ -19,6 +19,6 @@ describe("Jupiter", () => {
   });
   test("should output a positive number to indicate if user has lived longer than expected", () => {
     const spaceTime = new Jupiter(1000, 50);
-    expect(spaceTime.jupiterRemain(1, 50)).toEqual((1000/11.86) - 50);
+    expect(spaceTime.jupiterRemain(1000, 50)).toEqual((1000/11.86) - 50);
   });
 });

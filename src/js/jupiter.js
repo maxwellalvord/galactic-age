@@ -11,6 +11,10 @@ export default class jupiter {
     return lifexpect;
   }
   jupiterRemain(earthtime, lifexpect){
-    return (lifexpect - (earthtime/11.86));
+    if ((lifexpect - (earthtime/11.86)) < 0){
+      return ((earthtime/11.86) - lifexpect);
+    } else {
+      return (lifexpect - (earthtime/11.86));
+    }
   }
 }
