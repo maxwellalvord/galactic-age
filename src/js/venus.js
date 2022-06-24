@@ -7,5 +7,6 @@ export default class Venus {
     return earthtime/.62;
   }
   venusLife(lifexpect){
+    return lifexpect;
   }
 }
