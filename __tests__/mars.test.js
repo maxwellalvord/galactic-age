@@ -15,6 +15,6 @@ describe("Mars", () => {
   });
   test("Should calculate the time left the user has to live.", () => {
     const spaceTime = new Mars(1, 40);
-    expect(spaceTime.marsRemain(1, 40)).toEqual(40 - (1/.62));
+    expect(spaceTime.marsRemain(1, 40)).toEqual(40 - (1/1.88));
   });
 });
