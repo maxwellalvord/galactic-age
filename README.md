@@ -45,7 +45,7 @@
 
 
 ## Description
-This logic will calculate logic 
+This logic will calculate your relative age compared to earth with a separate class of logic for each planet. Inputting a life expectancy yields logic to tell the user how long they have left to live or how long they have outlived the expected age.
 
 ## Setup/Installation Requirements
 
@@ -59,8 +59,8 @@ This logic will calculate logic
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs at this point in time.
+
 
 ## License
 [MIT](https://opensource.org/osd)
@@ -75,3 +75,5 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contact Information
+Contact me with questions and bugs at: <br>
+<a href = "mailto:maxwellalvord@gmail.com">maxwellalvord@gmail.com</a>
