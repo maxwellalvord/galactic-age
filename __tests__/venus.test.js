@@ -17,4 +17,8 @@ describe("Venus", () => {
     const spaceTime = new Venus(1, 50);
     expect(spaceTime.venusRemain(1, 50)).toEqual(50 - (1/.62));
   });
+  test("should output a positive number to indicate if user has lived longer than expected", () => {
+    const spaceTime = new Venus(1000, 50);
+    expect(spaceTime.venusRemain(1000, 50)).toEqual((1000/.62) - 50);
+  });
 });
