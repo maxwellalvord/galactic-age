@@ -43,7 +43,6 @@
       width="60" height="40">
   </a>
 
-
 ## Description
 This logic will calculate your relative age compared to earth with a separate class of logic for each planet. Inputting a life expectancy yields logic to tell the user how long they have left to live or how long they have outlived the expected age.
 
@@ -56,11 +55,9 @@ This logic will calculate your relative age compared to earth with a separate cl
 * To run in browser use $ npm run start 
 * To test use $ npm run test
 
-
 ## Known Bugs
 
 * No known bugs at this point in time.
-
 
 ## License
 [MIT](https://opensource.org/osd)

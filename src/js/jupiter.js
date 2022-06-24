@@ -4,12 +4,15 @@ export default class jupiter {
     this.earthtime = earthtime;
     this.lifexpect = lifexpect
   }
+  
   jupiterTime(earthtime){
     return earthtime/11.86;
   }
+
   jupiterLife(lifexpect){
     return lifexpect;
   }
+
   jupiterRemain(earthtime, lifexpect){
     if ((lifexpect - (this.jupiterTime(earthtime))) < 0){
       return ((earthtime/11.86) - lifexpect);
