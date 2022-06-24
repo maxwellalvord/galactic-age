@@ -10,4 +10,5 @@ export default class jupiter {
   jupiterLife(lifexpect){
     return lifexpect;
   }
+  jupiterRemain(earthtime, lifexpect){}
 }
