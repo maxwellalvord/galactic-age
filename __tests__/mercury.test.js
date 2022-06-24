@@ -15,6 +15,6 @@ describe("Mercury", () => {
   });
   test("Should calculate the time left the user has to live.", () => {
     const spaceTime = new Mercury(1, 45);
-    expect(spaceTime.mercuryRemain(1, 45)).toEqual(40 - (1/.24));
+    expect(spaceTime.mercuryRemain(1, 45)).toEqual(45 - (1/.24));
   });
 });

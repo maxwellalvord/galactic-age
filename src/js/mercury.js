@@ -11,6 +11,6 @@ export default class Mercury {
     return lifexpect;
   }
   mercuryRemain(earthtime, lifexpect){
-  
+    return (lifexpect - (earthtime/.24));
   }
 }
