@@ -10,7 +10,10 @@ export default class Venus {
     return lifexpect;
   }
   venusRemain(earthtime, lifexpect){
-    return (lifexpect - (earthtime/.62));
-
+    if ((lifexpect - (earthtime/.62)) < 0){
+      return ((earthtime/.62) - lifexpect);
+    } else {
+      return (lifexpect - (earthtime/.62));
+    }
   }
 }
