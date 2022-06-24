@@ -5,4 +5,7 @@ export default class Mars {
   marsTime(earthtime){
     return earthtime/1.88;
   }
+  marsLife(lifexpect){
+ 
+  }
 }

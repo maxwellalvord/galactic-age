@@ -9,4 +9,8 @@ describe("Mars", () => {
     const spaceTime = new Mars(1);
     expect(spaceTime.marsTime(1)).toEqual(1/1.88);
   });
+  test("Should output the users life expectancy", () => {
+    const spaceTime = new Mars(1, 40);
+    expect(spaceTime.marsLife(40)).toEqual(40);
+  });
 });
