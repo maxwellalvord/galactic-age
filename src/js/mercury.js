@@ -1,5 +1,8 @@
 export default class Mercury {
-  constructor (ratio){
-    this.ratio = ratio;
+  
+  constructor (earthtime){
+    this.earthtime = earthtime;
   }
+
+
 }
