@@ -11,6 +11,6 @@ describe("Jupiter", () => {
   });
   test("Should output the users life expectancy", () => {
     const spaceTime = new Jupiter(1, 50);
-    expect(spaceTime.jupiterLife).toEqual(1, 50);
+    expect(spaceTime.jupiterLife(50)).toEqual(50);
   });
 });

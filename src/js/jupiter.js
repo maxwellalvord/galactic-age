@@ -8,6 +8,6 @@ export default class jupiter {
     return earthtime/11.86;
   }
   jupiterLife(lifexpect){
-    
+    return lifexpect;
   }
 }
