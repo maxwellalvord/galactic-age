@@ -1,11 +1,11 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### Simple business logic to calculate age relative to earth on different planets. 
 
-#### By (Your Name Here)
+#### By Maxwell Alvord
 
 ## Technologies Used
-
+##### Click an icon to visit documentation.
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
       <img alt="HTML 5 Icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
       width="60" height="40">
@@ -39,12 +39,13 @@
       width="60" height="40">
   </a>
 <a href="https://eslint.org/">
-      <img alt="ESlint Icon" src="https://eslint.org/assets/img/favicon.512x512.png"
+      <img alt="ESlint Icon" src="https://cdn.freebiesupply.com/logos/large/2x/eslint-1-logo-png-transparent.png"
       width="60" height="40">
   </a>
 
 
 ## Description
+This logic will calculate logic 
 
 ## Setup/Installation Requirements
 
