@@ -10,4 +10,7 @@ export default class Mercury {
   mercuryLife(lifexpect){
     return lifexpect;
   }
+  mercuryRemain(earthtime, lifexpect){
+  
+  }
 }
