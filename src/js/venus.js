@@ -1,22 +1,23 @@
 export default class Venus {
 
-  constructor (earthtime){
+  constructor (earthtime, lifexpec){
     this.earthtime = earthtime;
+    this.lifexpec = lifexpec;
   }
 
   venusTime(earthtime){
     return earthtime/.62;
   }
 
-  venusLife(lifexpect){
-    return lifexpect;
+  venusLife(lifexpec){
+    return lifexpec;
   }
   
-  venusRemain(earthtime, lifexpect){
-    if ((lifexpect - (this.venusTime(earthtime))) < 0){
-      return ((earthtime/.62) - lifexpect);
+  venusRemain(earthtime, lifexpec){
+    if ((lifexpec - (this.venusTime(earthtime))) < 0){
+      return ((earthtime/.62) - lifexpec);
     } else {
-      return (lifexpect - (earthtime/.62));
+      return (lifexpec - (earthtime/.62));
     }
   }
 }

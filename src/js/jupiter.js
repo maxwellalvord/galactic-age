@@ -1,23 +1,23 @@
 export default class jupiter {
   
-  constructor (earthtime, lifexpect){
+  constructor (earthtime, lifexpec){
     this.earthtime = earthtime;
-    this.lifexpect = lifexpect
+    this.lifexpec = lifexpec;
   }
   
   jupiterTime(earthtime){
     return earthtime/11.86;
   }
 
-  jupiterLife(lifexpect){
-    return lifexpect;
+  jupiterLife(lifexpec){
+    return lifexpec;
   }
 
-  jupiterRemain(earthtime, lifexpect){
-    if ((lifexpect - (this.jupiterTime(earthtime))) < 0){
-      return ((earthtime/11.86) - lifexpect);
+  jupiterRemain(earthtime, lifexpec){
+    if ((lifexpec - (this.jupiterTime(earthtime))) < 0){
+      return ((earthtime/11.86) - lifexpec);
     } else {
-      return (lifexpect - (earthtime/11.86));
+      return (lifexpec - (earthtime/11.86));
     }
   }
 }

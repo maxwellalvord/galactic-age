@@ -1,22 +1,23 @@
 export default class Mercury {
   
-  constructor (earthtime){
+  constructor (earthtime, lifexpec){
     this.earthtime = earthtime;
+    this.lifexpec = lifexpec;
   }
 
   mercuryTime(earthtime){
     return earthtime/.24;
   }
 
-  mercuryLife(lifexpect){
-    return lifexpect;
+  mercuryLife(lifexpec){
+    return lifexpec;
   }
   
-  mercuryRemain(earthtime, lifexpect){
-    if ((lifexpect - (this.mercuryTime(earthtime))) < 0){
-      return ((earthtime/.24) - lifexpect);
+  mercuryRemain(earthtime, lifexpec){
+    if ((lifexpec - (this.mercuryTime(earthtime))) < 0){
+      return ((earthtime/.24) - lifexpec);
     } else {
-      return (lifexpect - (earthtime/.24));
+      return (lifexpec - (earthtime/.24));
     }
   }
 }
