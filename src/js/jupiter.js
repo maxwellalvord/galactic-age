@@ -4,5 +4,6 @@ export default class jupiter {
     this.earthtime = earthtime;
   }
   jupiterTime(earthtime){
+    return earthtime/11.86;
   }
 }
