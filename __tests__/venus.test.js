@@ -13,4 +13,8 @@ describe("Venus", () => {
     const spaceTime = new Venus(1, 50);
     expect(spaceTime.venusLife(50)).toEqual(50);
   });
+  test("Should calculate the time left the user has to live.", () => {
+    const spaceTime = new Venus(1, 50);
+    expect(spaceTime.venusRemain(1, 50)).toEqual(50 - (1/.62));
+  });
 });

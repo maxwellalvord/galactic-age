@@ -9,4 +9,7 @@ export default class Venus {
   venusLife(lifexpect){
     return lifexpect;
   }
+  venusRemain(earthtime, lifexpect){
+
+  }
 }
