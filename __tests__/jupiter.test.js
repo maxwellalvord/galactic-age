@@ -13,7 +13,7 @@ describe("Jupiter", () => {
     const spaceTime = new Jupiter(1, 50);
     expect(spaceTime.jupiterLife(50)).toEqual(50);
   });
-  test("Should calculate teh time left the user has to live.", () => {
+  test("Should calculate the time left the user has to live.", () => {
     const spaceTime = new Jupiter(1, 50);
     expect(spaceTime.jupiterRemain(1, 50)).toEqual(50 - (1/11.86));
   });

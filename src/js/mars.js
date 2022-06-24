@@ -9,7 +9,7 @@ export default class Mars {
     return lifexpect;
   }
   marsRemain(earthtime, lifexpect){
-    if ((lifexpect - (earthtime/1.88)) < 0){
+    if ((lifexpect - (this.marsTime(earthtime))) < 0){
       return ((earthtime/1.88) - lifexpect);
     } else {
       return (lifexpect - (earthtime/1.88));

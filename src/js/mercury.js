@@ -11,7 +11,7 @@ export default class Mercury {
     return lifexpect;
   }
   mercuryRemain(earthtime, lifexpect){
-    if ((lifexpect - (earthtime/.24)) < 0){
+    if ((lifexpect - (this.mercuryTime(earthtime))) < 0){
       return ((earthtime/.24) - lifexpect);
     } else {
       return (lifexpect - (earthtime/.24));
