@@ -4,5 +4,7 @@ export default class Mercury {
     this.earthtime = earthtime;
   }
 
-
+  mercuryTime(earthtime){
+    return earthtime/.24;
+  }
 }

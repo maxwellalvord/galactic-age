@@ -7,6 +7,6 @@ describe("Mercury", () => {
   });
   test("Should output the the calculation to mercurytime", () => {
     const spaceTime = new Mercury(1);
-    expect(spaceTime.mercuryTime).toEqual(1/.24);
+    expect(spaceTime.mercuryTime(1)).toEqual(1/.24);
   });
 });
